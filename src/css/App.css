@@ -1,0 +1,16 @@
+.main-container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.order-panel {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.order-panel .panel-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

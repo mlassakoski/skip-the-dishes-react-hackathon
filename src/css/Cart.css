@@ -1,0 +1,12 @@
+.cart {
+    min-width: 30rem;
+    margin-left: 0.5rem;
+}
+
+.cart-box {
+    display: flex;
+    justify-content: space-between;
+}
+.cart-box span {
+    padding: 1rem;
+}
