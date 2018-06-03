@@ -19,18 +19,8 @@ class SignIn extends Component {
   }
 
   signIn() {
-    const { email, password } = this.state;
+    const { email } = this.state;
     localStorage.setItem('user', JSON.stringify({ email }));
-    // fetch('http://api-vanhack-event-sp.azurewebsites.net/api/v1/Customer/auth', {
-    //   method: 'POST', 
-    //   body: JSON.stringify({ email, password }), 
-    //   headers: new Headers({
-    //     'Content-Type': 'application/json'
-    //   })
-    // })
-    // .then(res => res.json())
-    // .then(data => console.log('Success:', data))
-    // .catch(error => this.setState({error})); 
   }
 
   render() {
